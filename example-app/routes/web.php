@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Hola soy Jesus de Veracruz');
+    return view('Hola soy Jesus de Veracruz -cambios en feature1');
 });
 Route::get('/Saludos', function () {
-    print"Esta es una ruta hecha por mua";
+    print "Esta es una ruta hecha por mua";
 });
